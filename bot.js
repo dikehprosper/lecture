@@ -46,7 +46,7 @@ async function runAdsenseBot() {
 
        await chromeBrowserPage.setUserAgent(userAgent)
        await chromeBrowserPage.setCookie(...cookies);
-       await chromeBrowserPage.goto("https://youtube.com/playlist?list=PLDsSJOowkVHkclOmHaf8VDTEEQvr0wz9R")
+       await chromeBrowserPage.goto("https://youtu.be/S-QNZLPTzbQ")
      
     }catch (e) {
 
